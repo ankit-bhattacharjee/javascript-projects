@@ -1,0 +1,27 @@
+Interface Explained -
+Player Panel -
+  Text Label for player #
+  Text Label for player score - Global score of the player which determines their win.
+  Text Label for current score - Round score of the player. Needs to be 'Hold' to be added to the Global score.
+General Buttons -
+  New Game - Clears all current game data and starts afresh.
+  Roll - Rolls a die; outcome maybe any one of the six face values.
+  Hold - Passes turn to next player, also adding the Round score to the Global score.
+Text Field -
+  Custom Goal - Custom win condition can be set. Default is 25.
+  
+Rules -
+Two players engage and the first player to obtain 25 points based on die rolls wins.
+Players can choose to either 'Roll' or 'Hold' on their turns.
+If they -
+  'Roll' - A die appears with a random face value. This face value gets added to their current score.
+           A player may wish to roll any number of times, current score is cumulatively increased.
+           If however, the player rolls a 1, they lose their accumulated current score and next player's turn begins.
+           Similar effect takes place upon two consecutive rolls of 6.
+  'Hold' - The current score is added to the global score of the player(just under the 'Player #'.).
+           Turn is passed to the next player.
+Keep playing till one player reaches the goal score!
+
+Tips -
+Don't be greedy, if you have an OK current score 'Hold' or you may lose if you roll a 1 or two consecutive 6(s)!
+Your Global score will determine if you win, NOT the current score!
